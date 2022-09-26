@@ -1,0 +1,177 @@
+.furniture .xanh i {
+
+    color: #7FAADB;
+}
+
+.furniture .camdo i {
+
+    color: #FE7865;
+}
+
+.furniture .xanhla i {
+
+    color: #9CE0D8;
+}
+
+.furniture .cam i {
+
+    color: #FFB585;
+}
+
+.furniture .la i {
+
+    color: #B0E2BB;
+}
+
+.furniture .tim i {
+
+    color: #BFADEF;
+}
+
+.furniture .hongdo i {
+
+    color: #FF8E9C;
+}
+
+.furniture .hong i {
+    color: #FCBDDA;
+}
+
+.furniture h4 {
+    font-size: 14px;
+    border-bottom: 1px solid #E7E8ED;
+    color: #8F91A3;
+    line-height: 50px;
+}
+
+
+.furniture h4 i {
+    margin-left: 60%;
+}
+
+.furniture ul li {
+    list-style-type: none;
+}
+
+.furniture ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: rgba(20, 21, 23, 59.43%);
+}
+.furniture ul li a:hover {
+    
+    color: #FE7865;
+}
+
+
+.furniture .filter h5 {
+    color: #141517;
+    font-size: 12px;
+    line-height: 30px;
+}
+.furniture .filter h5:hover {
+    
+    color: #FE7865;
+}
+
+.furniture h6 i {
+    margin-left: 60%;
+}
+
+.furniture h6 {
+    margin-top: 30px;
+    font-size: 11px;
+    color: #FE7865;
+}
+
+.products .nav-pills .nav-link {
+    text-align: center;
+    color: #2C2E3F;
+    padding: 0 10px;
+
+}
+
+
+.products .nav-pills .nav-link.active,
+.products .nav-pills .show>.nav-link {
+    color: #FF8E9C;
+    background-color: transparent;
+}
+
+@media (max-width:768px) {
+    .products .nav-pills {
+        scroll-behavior: auto;
+    }
+}
+
+.products .one-products .txt-price span {
+    color: #141517;
+    font-size: 18px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.products .one-products .txt-price p {
+    color: #141517;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.products .one-products p {
+    color: rgba(44, 46, 63, 69.75%);
+    font-size: 13px;
+    margin-top: 20px;
+}
+.products .one-products a {
+    color: #2C2E3F;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 50px;
+}
+.products .one-products a:hover {
+    color: #FE7865;
+}
+.products .btn {
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+}
+.products button {
+  padding: 0;
+}
+.furniture .one-products .new .one-products-hover {
+    top: 0;
+    background: rgba(254, 119, 101, 0.1);
+    left: 2.5%;
+    width: 95%;
+    height: 100%;
+
+    text-align: center;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.furniture .one-products .new .one-products-hover i {
+    color: #fff;
+    margin-top: 40%;
+    margin-right: 32px;
+    
+}
+.furniture .one-products .new:hover>.one-products-hover {
+    opacity: 1;
+    bottom: 20%
+}
+
+.furniture .one-products .new .one-products-hover i:hover {
+    color: #fff;
+    background-color: rgba(254, 119, 101, 0.856);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin-top: 10%;
+    
+}

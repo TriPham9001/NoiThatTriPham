@@ -1,0 +1,122 @@
+#menu ul li a {
+    color: #141517;
+}
+
+
+#menu ul li a:hover {
+    color: #FE7865;
+}
+
+#menu ul li i:hover {
+    color: #FE7865;
+
+}
+
+.f-Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#menu ul li i {
+    color: #000;
+
+}
+
+#menu ul li {
+    margin: 0 10px;
+}
+
+.btn-nav {
+    margin-top: 17%;
+}
+
+.spanIconNav {
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-weight: 300;
+    opacity: 1;
+}
+
+@media (min-width:992px) {
+
+    .spanIconNav {
+        opacity: 0;
+    }
+}
+
+@media (max-width:1200px) {
+
+    #menu ul li {
+        margin: 0;
+    }
+}
+
+#footer .icon-footer ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+#footer .icon-footer ul li {
+    list-style-type: none;
+}
+
+#footer .icon-footer ul li a {
+    color: black;
+}
+
+#footer .icon-footer ul li a i {
+    padding: 10px 20px;
+}
+
+#footer .txt-copy p {
+    color: rgba(44, 46, 63, 69.75%);
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media (min-width:992px) {
+
+    #footer .icon-footer ul {
+        justify-content: flex-end;
+    }
+}
+
+#footer h1 {
+    color: #2C2E3F;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer p {
+    color: rgba(44, 46, 63, 69.75%);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+#footer .signUp input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #FE7865;
+    padding-bottom: 10px;
+}
+
+#footer .contact, #footer .signUp {
+    margin-top: 20px;
+}
+
+@media (min-width:992px) {
+    #footer .contact, #footer .signUp {
+        margin-top: 0px;
+    }
+}
+
+#menu .dropdown-item:active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FE7865;
+}

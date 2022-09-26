@@ -1,0 +1,18 @@
+#help .btn {
+    height: 45px;
+}
+
+#help h4 {
+    font-size: 24px;
+    color: #FE7865;
+}
+
+#help h1 {
+    font-size: 64px;
+    color: #2C2E3F;
+}
+
+#help p {
+    font-size: 16px;
+    color: rgba(44, 46, 63, 69.75%);
+}
