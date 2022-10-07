@@ -60,10 +60,13 @@
 
 #footer .icon-footer ul li {
     list-style-type: none;
+    margin-top: 4%;
+
 }
 
 #footer .icon-footer ul li a {
     color: black;
+
 }
 
 #footer .icon-footer ul li a i {
