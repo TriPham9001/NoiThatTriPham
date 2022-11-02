@@ -1,0 +1,14 @@
+.img-register img {
+    width: 659px;
+    height: 677px;
+    opacity: 1;
+
+}
+
+@media (max-width:992px) {
+    .img-register img {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}

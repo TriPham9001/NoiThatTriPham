@@ -1,0 +1,106 @@
+.login  img {
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.login h1 {
+    font-size: 54px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login .form-control {
+    height: 50px;
+    font-style: italic;
+    color: #2C2E3F;
+    border: 1px solid #FE7865;
+    border-radius: 25px;
+}
+
+.login .form-check-input {
+
+    border: 1px solid #FE7865;
+    border-radius: 8px;
+}
+
+.login .form-checkbox .link-password-forget a {
+    text-align: right;
+    color: #2C2E3F;
+    text-decoration: none;
+}
+
+.login .form-checkbox .link-password-forget a:hover {
+    color: #FE7865;
+}
+
+.login .btn-login button {
+    height: 54px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.img-login img {
+    width: 880px;
+    height: 660px;
+    opacity: 1;
+
+}
+
+@media (max-width:992px) {
+    .img-login img {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+.login .line {
+    width: 100px;
+    height: 1px;
+    background-color: #FE7865;
+
+}
+
+.login .form-Or p {
+    margin: -12px 10px 0px 10px;
+}
+
+.login .form-link-network a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 45px;
+    margin: 10px 10px 0px 10px;
+
+}
+
+.login .form-link-network .facebook {
+    border: 1px solid #4267B2;
+    color: #4267B2;
+}
+
+.login .form-link-network .google {
+    border: 1px solid #EA4335;
+    color: #EA4335;
+
+}
+
+.login .form-link-network .twitter {
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+
+}
+.login .txt-register  {
+    margin: 0 auto;
+}
+.login .txt-register a {
+    text-decoration: none;
+    color: #2C2E3F;
+}
+
+.login .txt-register p {
+    color: #2C2E3F;
+}

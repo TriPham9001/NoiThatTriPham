@@ -21,13 +21,18 @@
     color: #000;
 
 }
+.nav-main .text-capitalize{
+    border: none;
 
+}
 #menu ul li {
     margin: 0 10px;
 }
 
 .btn-nav {
-    margin-top: 17%;
+    display: flex;
+    justify-content: end;
+    align-items: center;    
 }
 
 .spanIconNav {

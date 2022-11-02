@@ -1,0 +1,155 @@
+.search-bg .input-group .input-group-text i {
+    color: #FE7865;
+}
+
+.search-bg .input-group .input-group-text {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid #FE7865;
+    border-top: 1px solid #FE7865;
+    border-bottom: 1px solid #FE7865;
+    background-color: #fff;
+}
+
+.search-bg .search-box .input-group {
+    height: 60px;
+    width: 70%;
+
+}
+
+.search-bg .input-group input {
+    border-right: none;
+    border-left: 1px solid #FE7865;
+    border-top: 1px solid #FE7865;
+    border-bottom: 1px solid #FE7865;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.search-bg .search-box .search {
+    bottom: 50px;
+    left: 13%;
+}
+
+.group-txt h3 {
+    color: #FE7865;
+    font-size: 22px;
+}
+
+.group-txt {
+    background-image: linear-gradient(to right, #F5F8FC, #E7EFF8);
+}
+
+.group-txt h1 {
+    color: #2C2E3F;
+    font-size: 48px;
+}
+
+.group-txt .my-btn {
+    width: 250px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.group-txt .my-btn i {
+    padding-left: 50px;
+}
+
+.nav-main .my-btn i {
+    padding-left: 60%;
+    color: #8F91A3;
+
+}
+
+.nav-main .my-btn {
+    text-align: start;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #E7E8ED;
+    border-radius: 0px;
+    color: #8F91A3;
+    font-size: 18px;
+}
+
+.nav-main #third ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-main #third ul li {
+    margin-top: 10px;
+}
+
+.nav-main #third ul li a {
+    text-decoration: none;
+    color: #141517;
+    font-size: 16px;
+}
+
+.nav-main #third ul li a:hover {
+    color: #FE7865;
+}
+
+.nav-main #third .one-catergory #show-catergory ul {
+    margin-left: 20px;
+}
+
+.nav-main #third .one-catergory #show-catergory ul li a {
+    color: rgba(20, 21, 23, 0.59);
+    font-size: 14px;
+
+}
+
+.nav-main #third .one-catergory #show-catergory ul li a:hover {
+    color: #FE7865;
+}
+
+.nav-main #third .one-catergory #click-catergory i {
+    padding-left: 30%;
+    font-size: 15px;
+}
+
+.nav-main #third .one-catergory #click-catergory:hover {
+    color: #FE7865;
+
+}
+
+.form-blog .blog-one {
+    margin-bottom: 10px;
+}
+
+.form-blog .blog-one .txt-blog-one {
+    width: 70%;
+    height: 150px;
+    background-color: #fff;
+    bottom: 10%;
+    left: 15%;
+}
+
+.form-blog .blog-one .txt-blog-one h4 {
+    font-size: 24px;
+    color: #2C2E3F;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.form-blog .blog-one .txt-blog-one p {
+    font-size: 14px;
+    color: #9497AA;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.form-blog .blog-two {
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.form-blog button {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    height: 3%;
+    font-size: 16px;
+    font-weight: bold;
+}

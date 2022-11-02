@@ -1,0 +1,119 @@
+.from-ho-tro h4 {
+    font-size: 32px;
+    color: #FE7865;
+}
+
+.from-ho-tro h1 {
+    font-size: 64px;
+    color: #2C2E3F;
+    letter-spacing: -1.11px;
+    font-weight: bold;
+}
+
+.from-ho-tro p {
+    font-size: 16px;
+    color: rgba(44, 46, 63, 0.68);
+
+}
+
+.from-ho-tro .input-group .input-group-text i {
+    color: #FE7865;
+}
+
+.from-ho-tro .input-group .input-group-text {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid #FE7865;
+    border-top: 1px solid #FE7865;
+    border-bottom: 1px solid #FE7865;
+}
+
+.from-ho-tro .input-group {
+    height: 60px;
+}
+
+.from-ho-tro .input-group input {
+    border-right: none;
+    border-left: 1px solid #FE7865;
+    border-top: 1px solid #FE7865;
+    border-bottom: 1px solid #FE7865;
+    font-size: 12px;
+}
+
+.text-faq h3 {
+    font-size: 30px;
+    color: #2C2E3F;
+    padding: 0;
+}
+
+.line {
+    border-top: 1px solid #FE7865;
+    width: 5%;
+}
+
+.text-faq .my-button-faq {
+    background-color: transparent;
+    color: #2C2E3F;
+    text-align: start;
+    border: none;
+    border-bottom: 1px solid #E3E3E3;
+    font-size: 24px;
+}
+
+.text-faq .my-button-faq i {
+    color: #2C2E3F;
+    text-align: end;
+
+}
+.text-faq .box-faq{
+    border-bottom:1px solid #E3E3E3;
+    padding-bottom: 15px; 
+}
+.text-faq .box-faq .txt p{
+    text-align: start;
+    padding:0;
+    font-size: 24px;
+    color: #2C2E3F;
+    font-weight: 600;
+}
+.text-faq .box-faq .plus i{
+    text-align: end;
+    display: block;
+    line-height: 30px;
+    color: #8F91A3;
+    font-size: 32px;
+    line-height: 50px;
+
+}
+.text-faq .box-faq .container{
+    padding:0;
+
+}
+
+.box-click .one-box{
+    padding: 50px;
+    border: 1px solid #D9D9D9;
+
+}
+.box-click .one-box .box-icon{
+    background-color: #FE7865;
+    width: 86px;
+    height: 86px;
+    padding: 20px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+.box-click .one-box .box-icon img{
+   display: block;
+   margin: 0 auto;
+
+}
+.box-click .one-box .txt h3{
+    font-size: 24px;
+    color: #2C2E3F;
+ }
+ .box-click .one-box .txt p{
+    font-size: 16px;
+    color: rgba(44, 46, 63, 0.692);
+ }

@@ -1,0 +1,55 @@
+.detail-blog h1 {
+    font-size: 80px;
+    color: #2C2E3F;
+
+}
+
+.detail-blog p {
+    font-size: 24px;
+    color: rgba(44, 46, 63, 0.687);
+    margin-top: 30px;
+}
+
+.detail-blog .person-txt p {
+    font-size: 16px;
+    color: #2C2E3F;
+    padding: 15px 0px 0px 10px;
+    margin: 0;
+}
+
+.detail-blog .information-blog h3 {
+    font-size: 40px;
+    color: #2C2E3F;
+}
+
+.detail-blog .information-blog p {
+    font-size: 16px;
+    color: rgba(44, 46, 63, 0.697);
+    margin-top: 20px;
+}
+
+.detail-blog .information-blog img {
+    margin-top: 15px;
+}
+.detail-blog .information-blog .introduce-blog h4{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.detail-blog .information-blog .introduce-blog {
+    background-color: #FE7865;
+}
+.detail-blog .comment-blog .form-label{
+    color: #8F91A3;
+    font-size: 16px;
+    border-bottom: 1px solid #E7E8ED;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.detail-blog .comment-blog .btn{
+    font-weight: bold;
+    padding: 10px;
+}

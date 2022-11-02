@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="col-12 col-lg-2">
+          <div class="col-lg-2">
             <div class="container">
               <div class="row">
                 <div class="col-6 col-lg-12">
@@ -48,16 +48,13 @@
             >
               <div class="container">
                 <div class="row">
-                  <div class="col-md-9 text-start">
+                  <div class="col-md-9 text-start text-lg-center">
                     <ul class="navbar-nav mx-2">
                       <li class="nav-item">
                         <a href="index.html" class="nav-link">Trang chủ</a>
                       </li>
                       <li class="nav-item">
-                        <a href="furniture.html" class="nav-link">Cửa hàng</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="rest.html" class="nav-link">Sản Phẩm</a>
+                        <a href="cua-hang.html" class="nav-link">Cửa hàng</a>
                       </li>
                       <li class="nav-item">
                         <a
@@ -75,7 +72,7 @@
                           >Blog</a
                         >
                       </li>
-                      <li class="nav-item dropdown">
+                      <li class="nav-item dropdown nav-main">
                         <a
                           href="#"
                           class="nav-link dropdown-toggle"
@@ -84,15 +81,9 @@
                         >
                         <div class="dropdown-menu text-capitalize">
                           <a href="outlet.html" class="dropdown-item"
-                            >Địa chỉ</a
+                            >Liên Hệ</a
                           >
-                          <a href="#" class="dropdown-item">Chairs & Stools</a>
-                          <a href="#" class="dropdown-item"
-                            >Sofas & armchairs</a
-                          >
-                          <a href="#" class="dropdown-item">Lighting</a>
-                          <a href="#" class="dropdown-item">Tables</a>
-                          <a href="#" class="dropdown-item">Furnishings</a>
+                          <a href="#" class="dropdown-item">Đặt Câu Hỏi</a>
                         </div>
                       </li>
                     </ul>
@@ -129,101 +120,126 @@
         </nav>
       </div>
     </div>
-    <main id="main-page">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="carousel slide" id="banner" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/banner-1.png" alt="" class="w-100" />
-                </div>
-                <div class="carousel-item">
-                  <img src="images/banner-3.png" alt="" class="w-100" />
-                </div>
-                <div class="carousel-item">
-                  <img src="images/banner-2.png" alt="" class="w-100" />
-                </div>
-              </div>
-              <!-- control từng ảnh  -->
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  class="active"
-                  data-bs-target="#banner"
-                  data-bs-slide-to="0"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#banner"
-                  data-bs-slide-to="1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#banner"
-                  data-bs-slide-to="2"
-                ></button>
-              </div>
+    <main id="main-page text-center">
+      <div class="container-fluid">
+        <div class="carousel slide" id="banner" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner-1.png" alt="" class="w-100" />
             </div>
+            <div class="carousel-item">
+              <img src="images/banner-3.png" alt="" class="w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-2.png" alt="" class="w-100" />
+            </div>
+          </div>
+          <!-- control từng ảnh  -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              class="active"
+              data-bs-target="#banner"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner"
+              data-bs-slide-to="2"
+            ></button>
           </div>
         </div>
       </div>
       <div class="container onSale text-center text-lg-start mt-5">
         <div class="row">
           <div class="col-lg-3">
-            <h4>On Sale</h4>
-            <h1>Up to 20% off</h1>
+            <h4>Giảm Giá</h4>
+            <h1>Giảm giá tới 20%</h1>
             <div class="line"></div>
-            <p>Our entire Winter collection.</p>
-            <div class="category-left">
-              <h4>New In</h4>
-              <h4>Collections</h4>
-              <ul class="ps-3">
-                <li><a href="#">Chairs</a></li>
-                <li><a href="#">Office Chairs</a></li>
-                <li><a href="#">Stools</a></li>
-                <li><a href="#">Rocking Chairs</a></li>
-                <li><a href="#">Benches</a></li>
+            <p>Toàn bộ bộ sưu tập Mùa đông.</p>
+            <div class="category-left mt-5 ">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Sản Phẩm Mới</a
+                  >
+                </li>
+                <li class="nav-item dropdown category-drop">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    data-bs-target="#demo"
+                    href="#"
+                    >Bộ Sưu Tập</a
+                  >
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ghế</a></li>
+                    <li><a class="dropdown-item" href="#">Ghế Văn Phòng</a></li>
+                    <li><a class="dropdown-item" href="#">Ghế Đẩu</a></li>
+                    <li><a class="dropdown-item" href="#">Ghế Đá</a></li>
+                    <li><a class="dropdown-item" href="#">Băng Ghế</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trang trí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ngoài trời</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+                </li>
               </ul>
-              <h4>Rest</h4>
-              <h4>Outdoor</h4>
-              <h4>Decoration</h4>
-              <h4>Outdoor</h4>
-              <h4>Magazine</h4>
-              <h4>Outlet</h4>
             </div>
           </div>
-
-          <div class="col-md-5 text-lg-end">
+          <div class="col-lg-5 text-lg-end">
             <div class="image-1 position-relative m-3">
-              <img src="Images/phukien.jpg" alt="" />
-              <h3 class="category-name name1 position-absolute">Accessories</h3>
+              <a href="#">
+                <img src="Images/phukien.jpg" alt="" />
+                <h3 class="category-name name1 position-absolute">Phụ Kiện</h3>
+              </a>
             </div>
             <div class="image-2 position-relative m-3">
-              <img src="Images/Chairs&Stools.jpg" alt="" />
-              <h3 class="category-name name2 position-absolute">
-                Chairs & Stools
-              </h3>
+              <a href="#">
+                <img src="Images/Chairs&Stools.jpg" alt="" />
+                <h3 class="category-name name2 position-absolute">
+                  Ghế & Ghế đẩu
+                </h3>
+              </a>
             </div>
             <div class="image-3 position-relative m-3">
-              <img src="Images/Lighting.jpg" alt="" />
-              <h3 class="category-name name3 position-absolute">Lighting</h3>
+              <a href="#">
+                <img src="Images/Lighting.jpg" alt="" />
+                <h3 class="category-name name3 position-absolute">Đèn</h3>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 text-lg-start separate">
             <div class="image-4 position-relative m-3">
-              <img src="Images/sofa-ghebanh.jpg" alt="" />
-              <h3 class="category-name name4 position-absolute">
-                Sofas & armchairs
-              </h3>
+              <a href="#">
+                <img src="Images/sofa-ghebanh.jpg" alt="" />
+                <h3 class="category-name name4 position-absolute">
+                  Sofa & Ghế bành
+                </h3>
+              </a>
             </div>
             <div class="image-5 position-relative m-3">
-              <img src="Images/ban.jpg" alt="" />
-              <h3 class="category-name name5 position-absolute">Tables</h3>
+              <a href="#">
+                <img src="Images/ban.jpg" alt="" />
+                <h3 class="category-name name5 position-absolute">Bàn</h3>
+              </a>
             </div>
             <div class="image-6 position-relative m-3">
-              <img src="Images/Furnishings.png" alt="" />
-              <h3 class="category-name name6 position-absolute">Furnishings</h3>
+              <a href="#">
+                <img src="Images/Furnishings.png" alt="" />
+                <h3 class="category-name name6 position-absolute">Nội Thất</h3>
+              </a>
             </div>
           </div>
         </div>
@@ -235,16 +251,16 @@
       <div class="container mt-5 explore">
         <div class="row">
           <div class="col-lg-5 mt-5 text-center text-lg-start">
-            <h4>Trending</h4>
-            <h1>Latest News</h1>
+            <h4>Xu Hướng</h4>
+            <h1>Tin Mới Nhất</h1>
             <div class="line"></div>
             <p>
-              Brighten up your living areas this Winter with top tips from our
-              interior design team.
+              Làm bừng sáng các khu vực sống của bạn trong mùa Đông này với các
+              mẹo hàng đầu từ nhóm thiết kế nội thất của chúng tôi.
             </p>
             <div class="d-grid gap-2 pt-4">
               <button class="btn btn-primary text-uppercase" type="button">
-                EXPLORE ALL ARTICLES <i class="fas fa-arrow-right"></i>
+                tât cả sản phẩm <i class="fas fa-arrow-right"></i>
               </button>
             </div>
           </div>
@@ -253,13 +269,14 @@
           </div>
           <div class="col-lg-3 living mt-4 mt-lg-0 text-center text-lg-start">
             <h2>
-              Living room and lighting ideas that will inspire you this Winter.
+              Phòng khách và những ý tưởng ánh sáng sẽ truyền cảm hứng cho bạn
+              trong mùa Đông này.
             </h2>
             <div class="line"></div>
             <p>
-              Choosing the right mattress is not so simple. We all sleep in a
-              different way and we all want our mattress to adapt perfectly to
-              our body.
+              Việc lựa chọn một chiếc nệm phù hợp không hề đơn giản. Tất cả
+              chúng ta đều ngủ theo một cách khác nhau và chúng ta đều muốn nệm
+              của chúng ta thích ứng hoàn hảo với cơ thể của chúng ta.
             </p>
             <div class="d-flex person-txt">
               <img
@@ -274,48 +291,33 @@
       </div>
     </main>
 
-    <footer
-      class="text-light border-top mt-5 text-center text-lg-start"
-      id="footer"
-    >
+    <footer class="text-light border-top mt-5 text-center text-lg-start" id="footer">
       <div class="container py-5">
         <div class="row justify-content-end">
-          <div class="col-12 col-lg-5 helpful">
-            <h1>Helpful Links</h1>
-            <div class="container">
-              <div class="row">
-                <div class="col-6 col-lg-6 p-0 pt-4">
-                  <p>About us</p>
-                  <p>Delivery and Returns Policy</p>
-                  <p>Help & FAQ</p>
-                  <p>Service for professionals</p>
-                </div>
-                <div class="col-6 col-lg-6 p-0 pt-4">
-                  <p>About us</p>
-                  <p>Delivery and Returns Policy</p>
-                  <p>Help & FAQ</p>
-                  <p>Service for professionals</p>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-4 helpful">
+            <h1>Giới Thiệu</h1>
+            <p class="pt-4">Về chúng tôi</p>
+            <p>Chính sách giao hàng và trả hàng</p>
+            <p>Trợ giúp & Câu hỏi thường gặp</p>
+            <p>Dịch vụ cho các chuyên gia</p>
           </div>
-          <div class="col-lg-3 contact">
-            <h1>Contact Info</h1>
+          <div class="col-lg-4 contact">
+            <h1>Thông Tin Liên Lạc</h1>
             <p class="pt-4">
-              <i class="fas fa-location-dot"></i> 43/11 Đào Duy Từ,Lộc Phát, Bảo
-              Lộc
+              <i class="fas fa-location-dot"></i> 43/11 Đào D uy Từ,Lộc Phát,
+              Bảo Lộc
             </p>
             <p><i class="fas fa-envelope"></i> tri.pham1101@gmail.com</p>
             <p><i class="fas fa-phone"></i> +0379912701</p>
             <p><i class="fas fa-fax"></i> 1-800-1234-567</p>
           </div>
           <div class="col-lg-4 signUp">
-            <h1>Sign Up Now</h1>
+            <h1>Đăng Ký Ngay</h1>
             <div class="input-group pt-4">
               <input
                 type="text"
                 class="form-control"
-                placeholder="Name"
+                placeholder="Tên"
                 aria-label="Username"
                 aria-describedby="basic-addon1"
               />
@@ -331,7 +333,7 @@
             </div>
             <div class="d-grid gap-2 pt-4">
               <button class="btn btn-primary text-uppercase" type="button">
-                sign up now
+                Đăng Ký Ngay
               </button>
             </div>
           </div>

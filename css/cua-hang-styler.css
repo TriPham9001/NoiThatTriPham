@@ -37,7 +37,7 @@
     color: #FCBDDA;
 }
 
-.furniture h4 {
+.furniture a {
     font-size: 14px;
     border-bottom: 1px solid #E7E8ED;
     color: #8F91A3;
@@ -45,8 +45,14 @@
 }
 
 
-.furniture h4 i {
+.furniture a i {
     margin-left: 60%;
+    color: #8F91A3;
+
+}
+
+.furniture #clickfilter i {
+    margin-left: 42%;
 }
 
 .furniture ul li {
@@ -58,8 +64,9 @@
     line-height: 30px;
     color: rgba(20, 21, 23, 59.43%);
 }
+
 .furniture ul li a:hover {
-    
+
     color: #FE7865;
 }
 
@@ -69,8 +76,9 @@
     font-size: 12px;
     line-height: 30px;
 }
+
 .furniture .filter h5:hover {
-    
+
     color: #FE7865;
 }
 
@@ -108,15 +116,14 @@
     color: #141517;
     font-size: 18px;
     width: 50%;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .products .one-products .txt-price p {
-    color: #141517;
+    color: #FE7865;
     font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 .products .one-products p {
@@ -124,6 +131,7 @@
     font-size: 13px;
     margin-top: 20px;
 }
+
 .products .one-products a {
     color: #2C2E3F;
     font-size: 11px;
@@ -131,47 +139,90 @@
     text-decoration: none;
     padding-top: 50px;
 }
+
 .products .one-products a:hover {
     color: #FE7865;
 }
+
 .products .btn {
     width: 50%;
     height: 50px;
     margin: 0 auto;
 }
+
 .products button {
-  padding: 0;
-}
-.furniture .one-products .new .one-products-hover {
-    top: 0;
-    background: rgba(254, 119, 101, 0.1);
-    left: 2.5%;
-    width: 95%;
-    height: 100%;
-
-    text-align: center;
-    transition: all .5s;
-    opacity: 0;
+    padding: 0;
 }
 
-.furniture .one-products .new .one-products-hover i {
-    color: #fff;
-    margin-top: 40%;
-    margin-right: 32px;
-    
-}
-.furniture .one-products .new:hover>.one-products-hover {
-    opacity: 1;
-    bottom: 20%
+.furniture .my-btn i {
+    padding-left: 55%;
+    color: #8F91A3;
+
 }
 
-.furniture .one-products .new .one-products-hover i:hover {
-    color: #fff;
-    background-color: rgba(254, 119, 101, 0.856);
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    border-radius: 50%;
-    margin-top: 10%;
-    
+.furniture .my-btn {
+    text-align: start;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #E7E8ED;
+    border-radius: 0px;
+    color: #8F91A3;
+    font-size: 16px;
+}
+
+.furniture .my-btn-filter i {
+    padding-left: 33%;
+    color: #8F91A3;
+
+}
+
+.furniture .my-btn-filter {
+    text-align: start;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #E7E8ED;
+    border-radius: 0px;
+    color: #8F91A3;
+    font-size: 16px;
+}
+
+
+
+/* .furniture .my-checks {
+    margin-top: 20px;
+} */
+.furniture #showColor .form-check {
+    border: none;
+}
+
+.furniture #showColor .form-check #inlineRadio1 {
+    background-color: #7FAADB;
+}
+
+.furniture #showColor .form-check #inlineRadio2 {
+    background-color: #2C2E3F;
+}
+
+.furniture #showColor .form-check #inlineRadio3 {
+    background-color: #9CE0D8;
+}
+
+.furniture #showColor .form-check #inlineRadio4 {
+    background-color: #FFB585;
+}
+
+.furniture #showColor .form-check #inlineRadio5 {
+    background-color: #B0E2BB;
+}
+
+.furniture #showColor .form-check #inlineRadio6 {
+    background-color: #BFADEF;
+}
+
+.furniture #showColor .form-check #inlineRadio7 {
+    background-color: #FF8E9C;
+}
+
+.furniture #showColor .form-check #inlineRadio8 {
+    background-color: #FCBDDA;
 }
