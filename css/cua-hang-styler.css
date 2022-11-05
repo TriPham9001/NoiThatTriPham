@@ -37,15 +37,16 @@
     color: #FCBDDA;
 }
 
-.furniture a {
+.furniture .product-filter {
     font-size: 14px;
     border-bottom: 1px solid #E7E8ED;
     color: #8F91A3;
     line-height: 50px;
+    text-decoration: none;
 }
 
 
-.furniture a i {
+.furniture .product-filter i {
     margin-left: 60%;
     color: #8F91A3;
 
@@ -111,12 +112,38 @@
         scroll-behavior: auto;
     }
 }
+.products .one-products .txt-price a {
+    color: #141517;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none !important;
+}
 
-.products .one-products .txt-price span {
+.products .one-products .txt-price a:hover {
+    color: #FE7865;
+}
+.products .one-products .txt-price a {
     color: #141517;
     font-size: 18px;
     width: 50%;
     font-weight: 600;
+    text-decoration: none;
+}
+
+.products .one-products .txt-price a:hover {
+    color: #FE7865;
+}
+.products .one-products .new img {
+    display: inline-block;
+    overflow: hidden !important;
+    transition: .3s ease-in-out
+}
+
+.products .one-products .new img:hover {
+    opacity: 1;
+    filter: alpha(opacity=30);
+    padding-right: 10px;
+    transform: scale(1.2);
 }
 
 .products .one-products .txt-price p {
@@ -136,7 +163,7 @@
     color: #2C2E3F;
     font-size: 11px;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: none!important;
     padding-top: 50px;
 }
 

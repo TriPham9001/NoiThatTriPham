@@ -146,10 +146,6 @@
 }
 
 .form-blog button {
+    width: 60%;
     margin: 0 auto;
-    display: block;
-    width: 30%;
-    height: 3%;
-    font-size: 16px;
-    font-weight: bold;
 }

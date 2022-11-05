@@ -356,12 +356,15 @@
     font-weight: 500;
 
 }
+.onSale .category-left .category-drop ul  {
+    padding-left: 15px;
+    padding-top: 15px;
 
+}
 .onSale .category-left .category-drop ul li a {
     color: rgba(20, 21, 23, 0.579);
     padding: 0;
     font-weight: normal;
-    padding-left: 10px;
 }
 
 .onSale .category-left .category-drop ul li a:hover {
